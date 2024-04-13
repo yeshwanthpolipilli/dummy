@@ -69,7 +69,7 @@ function Contactus() {
           <div className="mb-4">
             <h3 className="fw-bold mb-3">Get in touch</h3>
 <p>
-<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15224.668940270085!2d78.391789!3d17.451708!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2a9b5bb0a23a0f59%3A0xb2aa1b27fe3ba045!2sGenamplify%20Solutions%20Hub%20PVT%20LTD.!5e0!3m2!1sen!2sin!4v1712748513672!5m2!1sen!2sin" width="300"   loading="lazy" ></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15224.668940270085!2d78.391789!3d17.451708!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2a9b5bb0a23a0f59%3A0xb2aa1b27fe3ba045!2sGenamplify%20Solutions%20Hub%20PVT%20LTD.!5e0!3m2!1sen!2sin!4v1712748513672!5m2!1sen!2sin" width="260"   loading="lazy" ></iframe>
   </p>            <p className="mb-1">Email: <a href="#">Devrootzhub@gmail.com</a></p>
             <p>Phone: <span className="text-dark fw-semibold">(000) 123 456 789</span></p>
 

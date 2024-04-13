@@ -1,15 +1,14 @@
-.contact-btn{
-    padding-left: 3em;
-    padding-right: 3em;
-    color: white;
-    background-color: orange;
-    border: none;
-    font-weight: 500;
-  
+.contact-btn1{
+ background: orange;
+ border: 0;
+ padding: 10px;
+  width: 100px;
+  font-size: 18px;
+  color: white;
+
 }
-.contact-btn:hover{
-    padding-left: 3em;
-    padding-right: 3em;
+.contact-btn1:hover{
+
     color: white;
     background-color: orangered;
     border: none;
@@ -45,7 +44,6 @@
 }
 
 
-/* Change the color of the box shadow for Bootstrap input */
 .form-control:focus,
 
 
@@ -61,10 +59,7 @@ input{
     margin-top: 5em;
 }
 
-/* banner starts here  */
-/* .banner-contact-image{
-    width: 600px;
-} */
+
 .contact-banner-heading{
     margin-top: 1.1em;
     font-size: 70px;
@@ -85,43 +80,3 @@ input{
     margin-top: 20px;
     color: rgb(126, 126, 126);
 }
-/* .faq{
-    font-weight: 500;
-    font-size: 30px;
-}
-
-  .accordion-button:focus{
-    outline: none ;
-    box-shadow: none;
-    background-color: transparent;
-    border-bottom: 2px solid rgb(161, 161, 161);
-
-  }
-
-
-  .accordion-button{
-   outline: none;
-   background-color: transparent;
-   border-bottom: 2px solid rgb(161, 161, 161);
-   
-   
-  }
-  .accordion{
-    background-color: transparent;
-  }
-
-
-  
-  .accordion-button:not(.collapsed) 
-    {
-        background-color: transparent;
-        color: black;
-        font-weight: 500;
-       color: orange;
-       border-bottom: 2px solid rgb(161, 161, 161);
-        
-
-
-
- 
-    } */

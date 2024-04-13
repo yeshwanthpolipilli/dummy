@@ -1,11 +1,8 @@
 import React from 'react'
 import '../Components/style.css'
 import { FaArrowRight } from "react-icons/fa";
-import { FaStar } from "react-icons/fa";
 import 'aos/dist/aos.css'; // Import AOS styles
 import AOS from 'aos';
-import { useEffect } from 'react';
-import { Link } from 'react-router-dom';
 import Testimonials from './Testimonials';
 import Footer from './Footer';
 import Cards from './Cards';
@@ -40,7 +37,7 @@ function Main() {
  
 <p className='py-3 greyyy'>Don't job hunt alone. We support you with training & guidance until you land your dream role.Your success is ours. We're with you every step of the way, until you're job-ready!</p>      
 
-</div><p className='getcode1 w-25 text-center text-white more-know'>Know More</p>
+</div><p className=' w-25 text-center more-know1 text-white '>Know More</p>
         </div>
         <div className="col-lg-7 dummy"data-aos="zoom-in"data-aos-duration="3000">
    <Tilt>

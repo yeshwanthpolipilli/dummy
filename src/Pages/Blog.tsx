@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from '../Components/Footer'
 import {
     FaStar,
     FaLongArrowAltRight,
@@ -6,6 +7,7 @@ import {
     FaComment,
   } from "react-icons/fa";
   import { GoDotFill } from "react-icons/go";
+import { Link } from 'react-router-dom';
 
 function Blog() {
   return (
@@ -16,8 +18,8 @@ function Blog() {
         <div className="card bg-dark text-white border-0 rounded-0">
         
            <img
-                className="item1_img w-100"
-                src={require("../Components/images/blog banner.jpg")}
+                className="item1_img w-100 h-50"
+                src={require("../Components/images/pic_paralax_2.jpg")}
                 alt=""
               />
           <div className="card-img-overlay">
@@ -44,7 +46,7 @@ function Blog() {
             <div className="item1">
               <img
                 className="item1_img w-100"
-                src={require("../Components/images/blogimggg.jpg")}
+                src={require("../Components/images/blog3 banner.png")}
                 alt=""
               />
               <div className="b-post-deatils">
@@ -66,12 +68,9 @@ function Blog() {
                   <h3>Lorem ipsum dolor sit amet dolor sit amet.</h3>
                   <div className="d-flex rd-content">
                     <a className="nav-link read-more" href="">
-                      Read More
+                <Link className='nav-link' to={'/One'}>     Read More       <FaLongArrowAltRight className='fs-5'/> </Link> 
                     </a>
-                    <a className="nav-link" href="">
-                      {" "}
-                      <FaLongArrowAltRight className="read-more-icon" />
-                    </a>
+                   
                   </div>
                 </div>
               </div>
@@ -81,7 +80,7 @@ function Blog() {
             <div className="item1">
             <img
                 className="item1_img w-100"
-                src={require("../Components/images/blogimggg.jpg")}
+                src={require("../Components/images/blog2 banner.png")}
                 alt=""
               />
               <div className="b-post-deatils">
@@ -103,12 +102,9 @@ function Blog() {
                   <h3>Lorem ipsum dolor sit amet dolor sit amet.</h3>
                   <div className="d-flex rd-content">
                     <a className="nav-link read-more" href="">
-                      Read More
+                <Link className='nav-link' to={'/Two'}>     Read More       <FaLongArrowAltRight className='fs-5'/> </Link> 
                     </a>
-                    <a className="nav-link" href="">
-                      {" "}
-                      <FaLongArrowAltRight className="read-more-icon" />
-                    </a>
+                   
                   </div>
                 </div>
               </div>
@@ -118,7 +114,7 @@ function Blog() {
             <div className="item1">
             <img
                 className="item1_img w-100"
-                src={require("../Components/images/blogimggg.jpg")}
+                src={require("../Components/images/blog1 banner.png")}
                 alt=""
               />
               <div className="b-post-deatils">
@@ -140,12 +136,9 @@ function Blog() {
                   <h3>Lorem ipsum dolor sit amet dolor sit amet.</h3>
                   <div className="d-flex rd-content">
                     <a className="nav-link read-more" href="">
-                      Read More
+                <Link className='nav-link' to={'/Three'}>     Read More       <FaLongArrowAltRight className='fs-5'/> </Link> 
                     </a>
-                    <a className="nav-link" href="">
-                      {" "}
-                      <FaLongArrowAltRight className="read-more-icon" />
-                    </a>
+                   
                   </div>
                 </div>
               </div>
@@ -155,7 +148,7 @@ function Blog() {
             <div className="item1">
             <img
                 className="item1_img w-100"
-                src={require("../Components/images/1 (1).png")}
+                src={require("../Components/images/blog4 banner.png")}
                 alt=""
               />
               <div className="b-post-deatils">
@@ -176,13 +169,13 @@ function Blog() {
                 <div className="item-details">
                   <h3>Lorem ipsum dolor sit amet dolor sit amet.</h3>
                   <div className="d-flex rd-content">
+                  <div className="d-flex rd-content">
                     <a className="nav-link read-more" href="">
-                      Read More
+                <Link className='nav-link' to={'/Four'}>     Read More       <FaLongArrowAltRight className='fs-5'/> </Link> 
                     </a>
-                    <a className="nav-link" href="">
-                      {" "}
-                      <FaLongArrowAltRight className="read-more-icon" />
-                    </a>
+                   
+                  </div>
+                 
                   </div>
                 </div>
               </div>
@@ -195,6 +188,9 @@ function Blog() {
       {/* blog ends here */}
    
    
+   <div>
+    <Footer/>
+   </div>
    
    
    </>

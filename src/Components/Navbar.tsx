@@ -28,7 +28,7 @@ const Navbar = () => {
   </div>
  </div>
   </div>
-  <div className="col-lg-3"><p className='my-1'> Skulpting Key Programmers</p></div>
+  <div className="col-lg-3"><p className='my-1'> Sculpting Key Programmers</p></div>
   <div className="col-lg-2">
     <span className='fs-5'>   &nbsp;    <MdFacebook /></span>
     <span className='fs-5'>   &nbsp;  <IoLogoInstagram /></span>
@@ -57,7 +57,7 @@ const Navbar = () => {
           </div>
         </div>
         <Link className='nav-link' to="/Corporate">Corporate Training</Link>
-        {/* <Link className='nav-link' to="/Blog">Blog</Link> */}
+        <Link className='nav-link' to="/Blog">Blog</Link>
         <a className='us' href="#">  <Link className='nav-link ' to="/Contactus">Contact us</Link></a>  
       </div>
       <div className="navbar-button">

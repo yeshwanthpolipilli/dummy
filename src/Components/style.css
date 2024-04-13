@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 *
 {
     margin: 0%;
@@ -109,11 +109,19 @@ color: white;
 text-align: center;
 line-height: 40px;
 font-weight: 600;
+border-radius:20px;
 margin-left: -150px;
 }
-.getcode1
+.more-know1
 {
-  background-color: #ff7426;
+  width: 130px;
+height: 40px;
+background-color: #ff7426;
+color: white;
+text-align: center;
+line-height: 40px;
+font-weight: 600;
+border-radius:20px;
 }
 .nested-snippets:hover .nested-links {
   display: flex;
@@ -221,13 +229,14 @@ margin-left: 260px;
  .Reg-btn
 {
   margin-top: 50px;
-width: 130px;
-height: 40px;
-background-color: #ff7426;
-color: white;
-text-align: center;
-line-height: 40px;
-font-weight: 600;
+  width: 150px;
+  height: 40px;
+  background-color: #ff7426;
+  color: white;
+  text-align: center;
+  line-height: 40px;
+  border-radius:20px;
+font-weight: 500;
 }
 
 .b-shape-1 {
@@ -380,13 +389,14 @@ padding: 5px;
 }
 .all
 {
+  width: 200px;
+  height: 40px;
   background-color: #ff7426;
-width: 170px;
-text-align: center;
-line-height: 40px;
-color: white;
-cursor: pointer;
-border-radius: 5px;
+  color: white;
+  text-align: center;
+  line-height: 40px;
+  font-weight: 600;
+  border-radius:20px;
 margin-top: 50px;
 }
 .left-arrow
@@ -933,10 +943,17 @@ overflow: hidden;
     margin: 0px;
     margin-top: 10em;
    }
-   .more-know
+   .more-know1
    {
- font-size: 10px;
-
+     width: 100px;
+   height: 30px;
+   background-color: #ff7426;
+   color: white;
+   text-align: center;
+   line-height: 30px;
+   font-weight: 600;
+   border-radius:20px;
+   font-size: 10px;
    }
 }
  @media screen and (min-width: 360px) and (max-width: 740px)
@@ -999,6 +1016,15 @@ object-position: 85% 0px;
 .Reg-btn
 {
 margin-top: 300px;
+width: 140px;
+height: 40px;
+background-color: #ff7426;
+color: white;
+text-align: center;
+font-size: 12px;
+line-height: 40px;
+font-weight: 500;
+border-radius:20px;
 }
 .more-know
 {
@@ -1036,10 +1062,34 @@ display: none;
   width: 500px;
  
  }
- .more-know
-{
-padding: 5px;
-}
+ .more-know1
+ {
+   width: 100px;
+ height: 30px;
+ background-color: #ff7426;
+ color: white;
+ text-align: center;
+ line-height: 30px;
+ font-weight: 600;
+ border-radius:20px;
+ font-size: 12px;
+ }
+ .getcode
+ {
+
+
+    width: 110px;
+  height: 30px;
+  background-color: #ff7426;
+  color: white;
+  text-align: center;
+  line-height: 30px;
+  font-weight: 600;
+  border-radius:20px;
+  font-size: 14px;
+  padding-left: 9px;
+ 
+ }
 .ms{
   padding: 5px;
 }
@@ -1092,7 +1142,7 @@ width: 240px;
 .Reg-btn
 {
 margin-top: 10px;
-width: 100px;
+width: 130px;
 font-size: 12px;
 height: 30px;
 line-height: 30px;

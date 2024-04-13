@@ -22,5 +22,5 @@
   },
   "include": [
     "src"
-  ]
+, "src/Components/One.tsx", "src/Components/Two.tsx", "src/Components/Three.tsx", "src/Components/Four.tsx"  ]
 }

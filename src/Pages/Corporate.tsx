@@ -10,7 +10,7 @@ function Corporate() {
      <div className='container-fluid bg-light text-dark'>
         <div className="container">
             <div className="row">
-                <div className="col-lg-6 d-flex flex-column justify-content-center text-dark">
+                <div className="col-lg-6 d-flex flex-column justify-content-center text-dark mx-auto" >
                     <h1 className='fs-3'>
                     Unleash Your Workforce Potential: Empower Your Teams with Engaging
 Corporate Training    </h1>
@@ -34,13 +34,13 @@ your teams and propel your business forward.</p>
 
 <div className="container-fluid p-5">
 
-<h1 className='fs-4 my-3 mx-5 text-dark fw-semibold'>Why Choose Our Corporate Training Programs?</h1>
+<h1 className='fs-4 my-3 mx-5 text-dark fw-semibold text-center'>Why Choose Our Corporate Training Programs?</h1>
 
 <div className="container d-flex flex-wrap justify-content-center">
     <div className="flex-item ">
         <div>
         <div className="card card-run">
-            <img src={require('../Components/images/PYTHON1.webp')} alt="" />
+            <img src={require('../Components/images/topp-01.png')} alt="" />
       <p className="card-title1">We Don't Do Boring!</p>
       <p className="small-desc">
       Ditch the stale lectures and monotonous presentations.
@@ -56,10 +56,10 @@ with practical applications.
     <div className="flex-item ">
         <div>
         <div className="card card-run">
-            <img src={require('../Components/images/PYTHON1.webp')} alt="" />
+            <img src={require('../Components/images/topp-01.png')} alt="" />
       <p className="card-title1">Tailored to Your Needs</p>
       <p className="small-desc">
-      We don't believe in a one-size-fits-all approach. We
+      We don't believe in a  approach. We
 work closely with you to identify your specific challenges and develop custom
 training solutions that target your unique requirements.
       </p>
@@ -72,11 +72,12 @@ training solutions that target your unique requirements.
     <div className="flex-item ">
         <div>
         <div className="card card-run">
-            <img src={require('../Components/images/PYTHON1.webp')} alt="" />
+            <img src={require('../Components/images/topp-01.png')} alt="" />
       <p className="card-title1">World-Class Expertise</p>
       <p className="small-desc">
       Our team of experienced trainers and instructional
-designers are passionate about creating impactful learning experiences.
+designers are passionate 
+We go beyond just delivering training about creating impactful with learning experiences.
       </p>
       <div className="go-corner">
         <div className="go-arrow">→</div>
@@ -87,12 +88,12 @@ designers are passionate about creating impactful learning experiences.
     <div className="flex-item ">
         <div>
         <div className="card card-run">
-            <img src={require('../Components/images/PYTHON1.webp')} alt="" />
-      <p className="card-title1">Measurable Results:!</p>
+            <img src={require('../Components/images/topp-01.png')} alt="" />
+      <p className="card-title1">Measurable Results</p>
       <p className="small-desc">
       We go beyond just delivering training. We help you track
 progress, measure success, and ensure a true return on your training
-investment.
+investment experiences.
       </p>
       <div className="go-corner">
         <div className="go-arrow">→</div>

@@ -15,6 +15,10 @@ import Sqlexpertise from './Pages/Sqlexpertise';
 import Blog from './Pages/Blog';
 import '../src/Components/Testimonails.css'
 import Corporate from './Pages/Corporate';
+import One from './Components/One';
+import Two from './Components/Two';
+import Three from './Components/Three';
+import Four from './Components/Four';
 
 
 function App() { 
@@ -51,6 +55,10 @@ function App() {
       <Route path="/Sqlexpertise" element={<Sqlexpertise/>}/>
       <Route path="/Blog" element={<Blog/>}/>
       <Route path="/Contact" element={<Contact/>}/>
+      <Route path='/One' element={<One/>}/>
+      <Route path='/Two' element={<Two/>}/>
+      <Route path='/Three' element={<Three/>}/>
+      <Route path='/Four' element={<Four/>}/>
       <Route path="*" element={<Pagenotfound />}/>
       <Route path=":name" element={<Pagenotfound />} />
       

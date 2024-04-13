@@ -112,7 +112,7 @@ function Aboutus() {
 
       {/* vision starts here */}
 
-      <div className="vision ">
+      <div className="vision p-5 ">
         <div className="container">
           <div className="row">
             <div className="col-lg-6">

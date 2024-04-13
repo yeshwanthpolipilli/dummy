@@ -1,10 +1,10 @@
 import React from 'react'
-import '../Pages/faq.css'
+import '../Pages/Frequent.css'
 
 function Faq() {
   return (
     <>
-        <div className='container p-2'>
+<div className='container p-2'>
     <h2 className='faq text-center p-5'>Frequently Asked Questions</h2>
 
 

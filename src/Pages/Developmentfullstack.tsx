@@ -7,15 +7,15 @@ function Developmentfullstack() {
     <>
     <div className="container">
      <div className="row">
-       <div className="col-md-6">
-       <img className='w-75 mt-4' src={require('../Components/images/full stack.webp')} alt="" />
+       <div className="col-md-5 mx-auto">
+       <img className='w-100 mt-4' src={require('../Components/images/new python.png')} alt="" />
        </div>
        <div className="col-md-6  d-flex flex-column  justify-content-center">
          <h2 className='mt-5 text-center text-danger'>
         Full Stack Development
          </h2>
          <p className='python-para'>
-         Dive into the world of Python programming with our comprehensive courses. Whether you're a beginner or looking to enhance your skills, our expert-led sessions cover everything from basics to advanced topics.
+         Dive into the world of Python programming with our comprehensive courses. you're a beginner or looking to enhance your skills, our expert-led sessions cover everything from basics to advanced topics.
          </p>
        </div>
      </div>
