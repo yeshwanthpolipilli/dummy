@@ -1,0 +1,40 @@
+.faq{
+    font-weight: 500;
+    font-size: 30px;
+}
+
+  .accordion-button:focus{
+    outline: none ;
+    box-shadow: none;
+    background-color: transparent;
+    border-bottom: 2px solid rgb(161, 161, 161);
+
+  }
+
+
+  .accordion-button{
+   outline: none;
+   background-color: transparent;
+   border-bottom: 2px solid rgb(161, 161, 161);
+   
+   
+  }
+  .accordion{
+    background-color: transparent;
+  }
+
+
+  
+  .accordion-button:not(.collapsed) 
+    {
+        background-color: transparent;
+        color: black;
+        font-weight: 500;
+       color: orange;
+       border-bottom: 2px solid rgb(161, 161, 161);
+        
+
+
+
+ 
+    }

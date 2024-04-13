@@ -1,0 +1,19 @@
+.card-ima
+{
+    object-fit: cover;
+    width: 240px;
+    height: 200px;
+    padding: 10px;
+}
+
+.card-mainn
+{
+    transition: all 0.5s ease;
+    border-top: 4px solid orange;
+}
+.card-mainn:hover
+{
+ transform:scale(1.08);
+ margin-top: -20px;
+   
+}  

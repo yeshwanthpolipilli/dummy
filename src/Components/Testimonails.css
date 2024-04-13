@@ -1,0 +1,203 @@
+/* testimonial starts here  */
+
+.tm-bg{
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 10%;
+}
+.shadow{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.test-head{
+  letter-spacing: 1px;
+  color: red;
+}
+  
+  /* testimonial ends here  */
+
+@media screen {
+  .tm-bg{
+    padding: 2%;
+   }
+}
+
+  .anime{
+    width: 100%;
+    height: 1px;
+    background-color: transparent;
+    position: absolute;
+    top: 750px;
+    left: 0px;
+   z-index: 999;
+    
+  }
+  .circles{
+    z-index: 999;
+  }
+  
+  .circles{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: green;
+    z-index: 999;
+    animation: circle 10s infinite linear;
+  
+  }
+  .circles1{
+    position: absolute;
+    bottom: 0px;
+    left: 200px;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: green;
+    z-index: 999;
+    animation: circle 10s infinite linear;
+    animation-delay: 2s;
+  
+  
+  }
+  .circles3{
+    position: absolute;
+    bottom: 0px;
+    left: 300px;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: green;
+    z-index: 999;
+    animation: circle 10s infinite linear;
+    animation-delay: 5s;
+  
+   
+  
+  }
+  .circles4{
+    position: absolute;
+    bottom: 0px;
+    left: 400px;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: green;
+    z-index: 999;
+    animation: circle 10s infinite linear;
+    animation-delay: 1s;
+  
+  
+  
+  }
+  .circles5{
+    position: absolute;
+    bottom: 0px;
+    left: 500px;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: green;
+    z-index: 999;
+    animation: circle 10s infinite linear;
+    animation-delay: 3s;
+   
+  
+  }
+  .circles6{
+    position: absolute;
+    bottom: 0px;
+    left: 600px;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: green;
+    z-index: 999;
+    animation: circle 10s infinite ease-in;
+    animation-delay: 8s;
+    
+  
+  }
+  .circles7{
+    position: absolute;
+    bottom: 0px;
+    left: 800px;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: green;
+    z-index: 999;
+    animation: circle 10s infinite ease-in;
+    animation-delay: 1s;
+    
+  
+  }
+  .circles8{
+    position: absolute;
+    bottom: 0px;
+    left: 900px;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: green;
+    z-index: 999;
+    animation: circle 10s infinite ease-in;
+    animation-delay: 2s;
+    
+    
+  
+  }
+  .circles9{
+    position: absolute;
+    bottom: 10px;
+    left: 1000px;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: green;
+    z-index: 999;
+    animation: circle 10s infinite linear;
+    animation-delay: 3s;
+  
+  }
+  .circles10{
+    position: absolute;
+    bottom: 0px;
+    left: 1100px;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: green;
+    z-index: 999;
+    animation: circle 10s infinite linear;
+    animation-delay: 2s;
+  
+  
+  }
+  .circles11{
+    position: absolute;
+    bottom: 0px;
+    left: 1200px;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: green;
+    z-index: 999;
+    animation: circle 10s infinite linear;
+    animation-delay: 5s;
+  
+   
+  
+  }
+  @keyframes circle {
+    0% {
+      -webkit-transform: translate(0px, 0px);
+      
+      
+  }
+  
+  100% {
+      -webkit-transform: translate(100px, -700px);
+  }
+  }
