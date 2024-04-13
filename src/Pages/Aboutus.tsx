@@ -9,6 +9,7 @@ import Footer from '../Components/Footer';
 import Animationsquare from '../Components/Animationsquare';
 import { GoDotFill } from "react-icons/go";
 
+
 function Aboutus() {
   React.useEffect(() => {
     AOS.init();
@@ -52,7 +53,7 @@ function Aboutus() {
           </div>
           <div className="col-lg-5 banner3-heading mt-5  d-flex flex-column justify-content-center" data-aos="fade-right" data-aos-duration="1000">
             <h1>About Us</h1>
-            <h2 className="my-3">
+            <h2 style={{color:"#ff7456"}} className="my-3 ">
              Empowering change, one innovation at a time.
             </h2>
             <p>

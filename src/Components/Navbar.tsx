@@ -49,10 +49,10 @@ const Navbar = () => {
         <div className="nested-snippets">
           <a href="#">All Courses <IoMdArrowDropdown /> </a>
           <div className="nested-links">
-            <Link className='nav-link text-white' to="/PythonCourse" >Python Mastery</Link>
-            <Link className='nav-link text-white' to="/Fullstackdevelopment" >Full Stack Development</Link>
-            <Link className='nav-link text-white' to="/Qatesting" >QA Testing</Link>
-            <Link className='nav-link text-white' to="/Sqlexpertise" >SQL Expertise</Link>
+            <Link className='nav-link text-white pyt' to="/PythonCourse" >Python Mastery</Link>
+            <Link className='nav-link text-white pyt' to="/Fullstackdevelopment" >Full Stack Development</Link>
+            <Link className='nav-link text-white pyt' to="/Qatesting" >QA Testing</Link>
+            <Link className='nav-link text-white pyt' to="/Sqlexpertise" >SQL Expertise</Link>
          
           </div>
         </div>
