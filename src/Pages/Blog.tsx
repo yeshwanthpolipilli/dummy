@@ -25,7 +25,7 @@ function Blog() {
             <h2 className="card-title text-center blog_heading ">BLOG</h2>
             <div className="d-flex blog_text">
               <a
-                className="card-text text-center text-danger nav-link "
+                className="card-text text-center text-danger nav-link " href={"Blog.text"}
                 >
                 Home
               </a>
