@@ -3,11 +3,10 @@ import Tilt from 'react-parallax-tilt';
 import { FaStar } from "react-icons/fa";
 import 'aos/dist/aos.css'; // Import AOS styles
 import AOS from 'aos';
-import { useEffect } from 'react';
-import { Link } from 'react-router-dom';
+
 import Footer from '../Components/Footer';
 import Animationsquare from '../Components/Animationsquare';
-import { GoDotFill } from "react-icons/go";
+
 
 
 function Aboutus() {

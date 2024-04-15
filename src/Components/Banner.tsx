@@ -2,9 +2,6 @@ import React from 'react';
 import '../Components/style.css'
 import 'aos/dist/aos.css'; // Import AOS styles
 import AOS from 'aos';
-import { useEffect } from 'react';
-import Tilt from 'react-parallax-tilt';
-import Animationsquare from './Animationsquare';
 import { Link } from 'react-router-dom';
 
 

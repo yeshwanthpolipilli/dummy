@@ -1,7 +1,7 @@
 import React from 'react'
 import { useParams } from "react-router-dom";
 import Hello from '../Components/images/pagenotfound.avif'
-import Navbar from '../Components/Navbar';
+
 
 function Pagenotfound() {
     let Yeshua = useParams();
