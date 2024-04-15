@@ -47,7 +47,7 @@ const Navbar = () => {
   <Link className='nav-link' to="/Home">Home</Link>
         <Link className='nav-link' to="/Aboutus">Aboutus</Link>
         <div className="nested-snippets">
-          <a href="#">All Courses <IoMdArrowDropdown /> </a>
+          <a href="">All Courses <IoMdArrowDropdown /> </a>
           <div className="nested-links">
             <Link className='nav-link text-white pyt' to="/PythonCourse" >Python Mastery</Link>
             <Link className='nav-link text-white pyt' to="/Fullstackdevelopment" >Full Stack Development</Link>

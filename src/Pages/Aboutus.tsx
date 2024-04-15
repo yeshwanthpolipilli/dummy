@@ -1,6 +1,5 @@
 import React from 'react'
 import Tilt from 'react-parallax-tilt';
-import { FaStar } from "react-icons/fa";
 import 'aos/dist/aos.css'; // Import AOS styles
 import AOS from 'aos';
 
@@ -30,7 +29,7 @@ function Aboutus() {
             <div className="d-flex abt-text ">
               <p className="card-text ">
                 <a className="nav-link" href="">
-                  Home{" "}
+                  Home
                 </a>
               </p>
               <span>About Us</span>

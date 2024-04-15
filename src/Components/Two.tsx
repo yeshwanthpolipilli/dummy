@@ -11,7 +11,7 @@ function Two() {
         <img
           className="w-100"
           
-src={require('../Components/images/blog1 banner.png')}     
+src={require('../Components/images/blog1 banner.png')}   alt="banner-blog1"   
       />
         <p className="pt-5">
           Welcome to our web development blog, where we're dedicated to sharing

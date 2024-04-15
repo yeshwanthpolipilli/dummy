@@ -1,7 +1,6 @@
 import React from 'react'
 import Footer from '../Components/Footer'
 import {
-    FaStar,
     FaLongArrowAltRight,
     FaRegClock,
     FaComment,
@@ -27,8 +26,7 @@ function Blog() {
             <div className="d-flex blog_text">
               <a
                 className="card-text text-center text-danger nav-link "
-                href=""
-              >
+                >
                 Home
               </a>
               <p className="card-text text-center text-danger blog_text1 fa-5 ">
@@ -67,7 +65,7 @@ function Blog() {
                 <div className="item-details">
                   <h3>Lorem ipsum dolor sit amet dolor sit amet.</h3>
                   <div className="d-flex rd-content">
-                    <a className="nav-link read-more" href="">
+                    <a className="nav-link read-more">
                 <Link className='nav-link' to={'/One'}>     Read More       <FaLongArrowAltRight className='fs-5'/> </Link> 
                     </a>
                    
@@ -101,7 +99,7 @@ function Blog() {
                 <div className="item-details">
                   <h3>Lorem ipsum dolor sit amet dolor sit amet.</h3>
                   <div className="d-flex rd-content">
-                    <a className="nav-link read-more" href="">
+                    <a className="nav-link read-more">
                 <Link className='nav-link' to={'/Two'}>     Read More       <FaLongArrowAltRight className='fs-5'/> </Link> 
                     </a>
                    
@@ -135,7 +133,7 @@ function Blog() {
                 <div className="item-details">
                   <h3>Lorem ipsum dolor sit amet dolor sit amet.</h3>
                   <div className="d-flex rd-content">
-                    <a className="nav-link read-more" href="">
+                    <a className="nav-link read-more">
                 <Link className='nav-link' to={'/Three'}>     Read More       <FaLongArrowAltRight className='fs-5'/> </Link> 
                     </a>
                    
@@ -170,7 +168,7 @@ function Blog() {
                   <h3>Lorem ipsum dolor sit amet dolor sit amet.</h3>
                   <div className="d-flex rd-content">
                   <div className="d-flex rd-content">
-                    <a className="nav-link read-more" href="">
+                    <a className="nav-link read-more">
                 <Link className='nav-link' to={'/Four'}>     Read More       <FaLongArrowAltRight className='fs-5'/> </Link> 
                     </a>
                    

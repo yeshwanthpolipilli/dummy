@@ -9,7 +9,7 @@ function One() {
         </h4>
         <img
           className="w-100"
-          src={require('../Components/images/blog3 banner.png')}
+          src={require('../Components/images/blog3 banner.png')} alt="banner-blog"
         />
         <p className=" pt-5 ">
           In today's fast-paced digital landscape, effective marketing is no

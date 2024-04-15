@@ -9,7 +9,7 @@ function Three() {
         </h4>
         <img
           className="w-100"
-src={require('../Components/images/blog2 banner.png')}        />
+src={require('../Components/images/blog2 banner.png')}   alt="banner-blog2"     />
         <p className="pt-5">
           Welcome to our Python development blog, where we dive deep into the
           world of Python programming to provide you with valuable insights,

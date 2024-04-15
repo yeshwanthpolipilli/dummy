@@ -7,9 +7,7 @@ function Four() {
       <h4 className="text-center p-5">
       Quality Assurance Insights: Elevating Your Web Testing Game
       </h4>
-      <img
-        className="w-100"
-        src={require('../Components/images/blog4 banner.png')}         />
+      <img  className="w-100" src={require('../Components/images/blog4 banner.png')} alt='banner-img' />
       <p className="pt-5">
       Welcome to our QA testing blog, where we explore the fascinating world of quality assurance and provide valuable insights, strategies, and best practices to help you ensure the highest level of quality for your web projects. Whether you're a seasoned QA professional or just getting started in the field, our goal is to equip you with the knowledge and tools needed to deliver exceptional user experiences. Let's delve into some of the engaging content you'll find on our blog:
       </p>
