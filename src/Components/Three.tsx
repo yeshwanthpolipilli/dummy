@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from '../Components/Footer'
 
 function Three() {
   return (
@@ -134,6 +135,7 @@ src={require('../Components/images/blog2 banner.png')}   alt="banner-blog2"     
           mastering Python and building extraordinary things together!
         </p>
       </div>
+      <Footer/>
     </>
   );
 }

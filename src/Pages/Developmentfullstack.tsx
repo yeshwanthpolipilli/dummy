@@ -1,161 +1,131 @@
 import React from 'react'
 import '../Components/style.css'
 import Footer from '../Components/Footer';
+import '../Pages/corporate.css'
+import Animationsquare from '../Components/Animationsquare';
+import Contactbanner from '../Components/Contactbanner';
 
 function Developmentfullstack() {
   return (
     <>
-    <div className="container">
-     <div className="row">
-       <div className="col-md-5 mx-auto">
-       <img className='w-100 mt-4' src={require('../Components/images/new python.png')} alt="" />
-       </div>
-       <div className="col-md-6  d-flex flex-column  justify-content-center">
-         <h2 className='mt-5 text-center text-danger'>
-        Full Stack Development
-         </h2>
-         <p className='python-para'>
-         Dive into the world of Python programming with our comprehensive courses. you're a beginner or looking to enhance your skills, our expert-led sessions cover everything from basics to advanced topics.
-         </p>
-       </div>
-     </div>
-  
+
+ 
+    <div className="container-fluid bg-white   text-dark">
+   <div className="container ">
+    <div className="row">
+      <div className="col-md-5" data-aos="fade-left" data-aos-duration="1000">
+      <img className='w-100 ' src={require('../Components/images/fulstack.png')} alt="" />
+      </div>
+
+      <div className="col-md-7  d-flex  flex-column justify-content-center">
+        <div className="container mx-sm-5">
+        <h2 className='mt-5 text-center text-dark'>
+          Python Mastery
+        </h2>
+
+        <p>
+        Dive into the world of Python programming with our comprehensive courses. you're a beginner or looking to enhance your skills, our expert-led sessions cover everything from basics to advanced topics.
+
+
+        </p>
+        
+        </div>
+  </div>
     </div>
  
+   </div>
+   </div>
+
+
+
+
+
+
+
+
+
+
+
  {/* python course banner3 starts here */}
+ <div className="container-fluid p-5">
 
-<div className="container-fluid bg-light text-dark mt-3 text-white p-5">
+<h1 className='fs-4 my-3 mx-5 text-dark fw-semibold text-center text-decoration-underline'>Why Choose Our Full Stack Development Course?</h1>
 
-<div className="container mt-5  ">
-  <div className="row">
-    <div className="col-md-7 mt-md-5 d-flex flex-column  justify-content-center" data-aos="fade-down" data-aos-duration="2000">
-    <h2 className=' text-center text-dark'>
-     In-depth Curriculum
-        </h2>
-
-      
-        <p className='python-para my-5 text-dark'>
-     
-     
-        Master the fundamentals and progress to advanced topics like data science, web development, and machine learning. </p>
+<div className="container d-flex flex-wrap justify-content-center">
+    <div className="flex-item ">
+        <div>
+        <div className="card card-run">
+           
+        <img className='w-100 ' src={require('../Components/images/stack1.webp')} alt="" />
+      <p className="card-title1 my-1"> Become Job-Ready Fast</p>
+      <p className="small-desc">
+      Gain the practical skills and industry insights needed to excel in today's job market. (We even offer pay after placement options for select students!) </p>
+    
+      <div className="go-corner">
+        <div className="go-arrow">→</div>
+      </div>
     </div>
-    <div className="col-md-5 mt-5 mx-auto ">
-  
-     <img className='w-100 ' src={require('../Components/images/stack1.webp')} alt="" />
+        </div>
     </div>
-  </div>
+
+    <div className="flex-item ">
+        <div>
+        <div className="card card-run">
+        <img className='w-100 PYTHON4' src={require('../Components/images/stack2.webp')} alt="" />
+     
+      <p className="card-title1 mt-2">	Master Both Fronts</p>
+      <p className="small-desc">
+      Learn front-end technologies like HTML, CSS, and JavaScript frameworks (React, Angular, Vue.js) to create stunning user interfaces.
+      </p>
+      <div className="go-corner">
+        <div className="go-arrow">→</div>
+      </div>
+    </div>
+        </div>
+    </div>
+
+    <div className="flex-item ">
+        <div>
+        <div className="card card-run">
+        <img className='w-100 ' src={require('../Components/images/stack3.webp')} alt="" />
+      <p className="card-title1 my-2">	Conquer the Back-End</p>
+      <p className="small-desc">
+      Dive into back-end development using languages like Python, Java, or Node.js, and master databases (MySQL, PostgreSQL) for data storage and retrieval.      </p>
+      <div className="go-corner">
+        <div className="go-arrow">→</div>
+      </div>
+    </div>
+        </div>
+    </div>
+
+    <div className="flex-item ">
+        <div>
+        <div className="card card-run">
+        <img className='w-100 ' src={require('../Components/images/stack4.webp')} alt="" />
+      <p className="card-title1">	Project-Based Learning</p>
+      <p className="small-desc">
+      Solidify your knowledge by building real-world web applications throughout the course.      </p>
+      <div className="go-corner">
+        <div className="go-arrow">→</div>
+      </div>
+    </div>
+        </div>
+    </div>
+</div>
 </div>
 
 
-{/* python corse banner3 ends here  */}
+ {/* cards starts here */}
+
+
+ {/* cards ends here  */}
 
 
 
-{/* python course banner4 starts here */}
+{/* faq */}
 
-<div className="container mt-5">
-  <div className="row">
-    <div className="col-md-5 ">
-      <img className='w-100 PYTHON4' src={require('../Components/images/stack2.webp')} alt="" />
-    </div>
-    <div className="col-md-7 mt-5 mx-auto d-flex flex-column  justify-content-center"data-aos="fade-down" data-aos-duration="2000">
-    <h2 className=' text-center text-dark'>
-    Expert-Led Training
-        </h2>
-
-      
-        <p className='python-para my-5  text-dark'>
-     
-     
-        Learn from seasoned professionals with proven industry experience.</p>    </div>
-  </div>
-</div>
-
-
-
-{/* python corse banner4 ends here  */}
-
-
-
-{/* python course banner3 starts here */}
-
-
-<div className="container mt-5 overflow-hidden">
-  <div className="row">
-    <div className="col-md-7 d-flex flex-column  justify-content-center"data-aos="fade-down" data-aos-duration="2000">
-        <h2 className=' text-center text-dark'>
-    Placement Assistance
-        </h2>
-        <p className='python-para my-5 text-dark'>
-        We provide dedicated guidance and support to help you land your dream Python job.</p> 
-    </div>
-    <div className="col-md-5 mt-5 mx-auto">
-  
-     <img className='w-100 ' src={require('../Components/images/stack3.webp')} alt="" />
-    </div>
-  </div>
-</div>
-
-
-{/* python corse banner3 ends here  */}
-
-
-
-
-{/* python course banner4 starts here */}
-
-<div className="container mt-5">
-  <div className="row">
-    <div className="col-md-5">
-      <img className='w-100 ' src={require('../Components/images/stack4.webp')} alt="" />
-    </div>
-    <div className="col-md-7 mt-5 mx-auto  d-flex flex-column  justify-content-center"data-aos="fade-down" data-aos-duration="2000">
-    <h2 className=' text-center text-dark'>
-    	Hands-on Learning
-        </h2>
-
-      
-        <p className='python-para my-5 text-dark'>
-     
-     
-        Build practical projects and solidify your understanding through real-world applications.</p> 
-
-    </div>
-  </div>
-</div>
-
-
-{/* python course banner3 starts here */}
-
-
-<div className="container mt-5 overflow-hidden">
-  <div className="row">
-    <div className="col-md-7 d-flex flex-column  justify-content-center"data-aos="fade-down" data-aos-duration="2000">
-        <h2 className=' text-center text-dark'>
-    Placement Assistance
-        </h2>
-        <p className='python-para my-5 text-dark '>
-        We provide dedicated guidance and support to help you land your dream Python job.</p> 
-    </div>
-    <div className="col-md-5 mt-5 mx-auto">
-  
-     <img className='w-100 ' src={require('../Components/images/satck5.webp')} alt="" />
-    </div>
-  </div>
-</div>
-
-
-{/* python corse banner3 ends here  */}
-
-
-
-
-
-</div>
-
-{/* python corse banner4 ends here  */}
-
-
+<Contactbanner/>
+{/* faq */}
 
 
 
@@ -165,23 +135,7 @@ function Developmentfullstack() {
 {/*  */}
 
 
-  <div className="container overflow-hidden">
-
-
-<div className="b-shape-1 ">
-          <img src={require("../Components/images/shape-1.png")} alt="" />
-        </div>
-        <div className="b-shape-2">
-          <img src={require("../Components/images/shape-2.png")} alt="" />
-        </div>
-        <div className="b-shape-3">
-          <img src={require("../Components/images/shape-3.png")} alt="" />
-        </div>
-        <div className="b-shape-4">
-          <img src={require("../Components/images/shape-4.png")} alt="" />
-        </div>
-        </div>
-
+  <Animationsquare/>
 
 
 

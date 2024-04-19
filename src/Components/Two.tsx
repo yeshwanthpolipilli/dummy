@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from '../Components/Footer'
 
 function Two() {
   return (
@@ -129,6 +130,7 @@ src={require('../Components/images/blog1 banner.png')}   alt="banner-blog1"
           the web!
         </p>
       </div>
+      <Footer/>
     </>
   );
 }

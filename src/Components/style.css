@@ -46,6 +46,7 @@ z-index: 999;
   padding-left: 50px;
   color: rgb(255, 0, 0);
   text-decoration: none;
+  font-weight: 500;
 }
 
 .navbar-button button {
@@ -113,6 +114,18 @@ border-radius:20px;
 margin-left: -150px;
 }
 .more-know1
+{
+  width: 130px;
+height: 40px;
+background-color: #ff7426;
+color: white;
+text-align: center;
+line-height: 40px;
+font-weight: 600;
+border-radius:20px;
+
+}
+.more-know5
 {
   width: 130px;
 height: 40px;
@@ -210,7 +223,7 @@ margin-left: -50px;
     font-size: 60px;
     /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
    font-family: poppins;
-   font-weight: 500;
+   font-weight: 600;
    margin-top: 50px;
    width: 450px;
   
@@ -470,41 +483,6 @@ text-align: center;
 /* main ends here  */
 
 
-/* python starts here  */
-
-.python-para
-{
-  text-align: center;
-  font-size: 18px;
-  margin-top: 25px;
-  text-align: center;
-
-
-}
-.bg-hover
-{
-  background-color: white;
-  width: 100%;
-  height: 400px;
-}
-.bg-hover:hover
-{
-  background-color: black;
-  width: 100%;
-  height: 400px;
-
-}
-
-.bg-newdark
-{
-  background: rgb(237,7,7);
-background: linear-gradient(90deg, rgb(31, 241, 227) 0%, rgb(45, 111, 117) 100%);
-width: 100%;
-}
-
-
-
-/* python ends here  */
 
 
 /* contact page starts here */
@@ -653,6 +631,7 @@ width: 100%;
   object-fit: cover;
   border-radius: 8px;
 }
+
 
 /* vision starts here  */
 
@@ -1078,6 +1057,18 @@ font-weight: 600;
 border-radius:20px;
 font-size: 10px;
 }
+.more-know5
+{
+  width: 120px;
+height: 30px;
+background-color: #ff7426;
+color: white;
+text-align: center;
+line-height: 30px;
+font-weight: 600;
+border-radius:20px;
+font-size: 10px;
+}
 }
 @media screen and (min-width: 740px) and (max-width: 758px)
 {
@@ -1092,6 +1083,23 @@ font-size: 10px;
   font-weight: 600;
   border-radius:20px;
   font-size: 12px;
+  }
+  .more-know5
+  {
+    width: 100px;
+  height: 30px;
+  background-color: #ff7426;
+  color: white;
+  text-align: center;
+  line-height: 30px;
+  font-weight: 600;
+  border-radius:20px;
+  font-size: 12px;
+  }
+  .course
+  {
+    margin-top: 5px;
+    font-weight: 600px;
   }
 }
 
@@ -1121,6 +1129,18 @@ display: none;
   width: 500px;
  
  }
+ .more-know5
+ {
+   width: 20px;
+ height: 30px;
+ background-color: #ff7426;
+ color: white;
+ text-align: center;
+ line-height: 30px;
+ font-weight: 600;
+ border-radius:15px;
+ font-size: 16px;
+ }
  .more-know1
  {
    width: 100px;
@@ -1135,9 +1155,7 @@ display: none;
  }
  .getcode
  {
-
-
-    width: 110px;
+      width: 110px;
   height: 30px;
   background-color: #ff7426;
   color: white;
@@ -1148,6 +1166,11 @@ display: none;
   font-size: 14px;
   padding-left: 9px;
  
+ }
+ .course
+ {
+   margin-top: -10px;
+   font-weight: 600px;
  }
 .ms{
   padding: 5px;
@@ -1164,15 +1187,6 @@ display: none;
 .tm{
   padding: 0px;
 }
-
-.course
-{
-   font-size: 60px;
-width: 290px;
-margin-top: 100px;
-
-}
-
 .topbgm
 {
   display: none;
@@ -1181,12 +1195,7 @@ margin-top: 100px;
 {
   display: none;
 }
-.course
-{
-   font-size: 30px;
-width: 290px;
 
-}
 
 .homebannerimg
 {
@@ -1282,6 +1291,7 @@ line-height: 30px;
   {
      font-size: 30px;
 width: 290px;
+font-weight: 600px;
   
   }
 
@@ -1318,6 +1328,7 @@ display: block;
   {
     display: none;
   }
+
 }
 @media only screen and (min-width: 769px) and (max-width: 800px)
 {
@@ -1354,5 +1365,17 @@ margin-left: 10px;
  {
 font-size: 12px;
 
+ }
+ .more-know5
+ {
+   width: 100px;
+ height: 30px;
+ background-color: #ff7426;
+ color: white;
+ text-align: center;
+ line-height: 30px;
+ font-weight: 600;
+ border-radius:20px;
+ font-size: 12px;
  }
 }

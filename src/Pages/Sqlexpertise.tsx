@@ -1,5 +1,8 @@
 import React from 'react'
 import Footer from '../Components/Footer';
+import '../Components/Animationsquare'
+import Animationsquare from '../Components/Animationsquare';
+import Contactbanner from '../Components/Contactbanner';
 
 function Sqlexpertise() {
   return (
@@ -36,135 +39,93 @@ Master Python Programming & Launch Your Tech Career
    </div>
 
 
-{/* python course banner3 starts here */}
+{/* cards python starts */}
 
-<div className="container-fluid bg-light  text-dark p-5">
+<div className="container-fluid p-5">
 
-<div className="container mt-5  ">
-  <div className="row">
-    <div className="col-md-7 mt-md-5 d-flex flex-column  justify-content-center" data-aos="fade-down" data-aos-duration="2000">
-    <h2 className=' text-center text-dark'>
-     In-depth Curriculum
-        </h2>
+<h1 className='fs-4 my-3 mx-5 text-dark fw-semibold text-center text-decoration-underline'>Why Choose Our Sql Course</h1>
 
-      
-        <p className='python-para my-5 '>
-     
-     
-        Master the fundamentals and progress to advanced topics like data science, web development, and machine learning. </p>
-    </div>
-    <div className="col-md-5 mt-5 mx-auto">
-  
+<div className="container d-flex flex-wrap justify-content-center">
+    <div className="flex-item ">
+        <div>
+        <div className="card card-run">
+           
      <img className='w-100 PYTHON4' src={require('../Components/images/PYTHON1.webp')} alt="" />
+      <p className="card-title1"> 	From Beginner to Boss</p>
+      <p className="small-desc">
+      Whether you're a complete novice or looking to refine your skills, our course caters to all levels, taking you from the fundamentals to advanced functionalities. </p>
+    
+      <div className="go-corner">
+        <div className="go-arrow">→</div>
+      </div>
     </div>
-  </div>
+        </div>
+    </div>
+
+    <div className="flex-item ">
+        <div>
+        <div className="card card-run">
+        <img className='w-100 PYTHON4' src={require('../Components/images/PYTHON2.webp')} alt="" />
+     
+      <p className="card-title1 mt-2">	Master the Core</p>
+      <p className="small-desc">
+      Grasp essential concepts like data retrieval (SELECT), manipulation (INSERT, UPDATE, DELETE), and filtering (WHERE, JOIN) with ease.
+      </p>
+      <div className="go-corner">
+        <div className="go-arrow">→</div>
+      </div>
+    </div>
+        </div>
+    </div>
+
+    <div className="flex-item ">
+        <div>
+        <div className="card card-run">
+        <img className='w-75  mx-auto' src={require('../Components/images/PYTHON3.webp')} alt="" />
+      <p className="card-title1 mt-4">  Advanced SQL Power</p>
+      <p className="small-desc">
+      Delve into complex queries, subqueries, functions (aggregate, window), and data manipulation techniques.      </p>
+      <div className="go-corner">
+        <div className="go-arrow">→</div>
+      </div>
+    </div>
+        </div>
+    </div>
+
+    <div className="flex-item ">
+        <div>
+        <div className="card card-run">
+        <img className='w-100 PYTHON4' src={require('../Components/images/PYTHON4.webp')} alt="" />
+      <p className="card-title1">	Real-World Applications</p>
+      <p className="small-desc">
+      Solidify your learning by working on practical exercises and analyzing real-world datasets.      </p>
+      <div className="go-corner">
+        <div className="go-arrow">→</div>
+      </div>
+    </div>
+        </div>
+    </div>
+</div>
 </div>
 
 
-{/* python corse banner3 ends here  */}
-
-
-
-{/* python course banner4 starts here */}
-
-<div className="container mt-5">
-  <div className="row">
-    <div className="col-md-5 ">
-      <img className='w-100 PYTHON4' src={require('../Components/images/PYTHON2.webp')} alt="" />
-    </div>
-    <div className="col-md-7 mt-5 mx-auto d-flex flex-column  justify-content-center"data-aos="fade-down" data-aos-duration="2000">
-    <h2 className=' text-center text-dark'>
-    Expert-Led Training
-        </h2>
-
-      
-        <p className='python-para my-5 '>
-     
-     
-        Learn from seasoned professionals with proven industry experience.</p>    </div>
-  </div>
-</div>
+{/* cards python ends  */}
 
 
 
 {/* python corse banner4 ends here  */}
 
-
-
-{/* python course banner3 starts here */}
-
-
-<div className="container mt-5 overflow-hidden">
-  <div className="row">
-    <div className="col-md-7 d-flex flex-column  justify-content-center"data-aos="fade-down" data-aos-duration="2000">
-        <h2 className=' text-center text-dark'>
-    Placement Assistance
-        </h2>
-        <p className='python-para my-5 '>
-        We provide dedicated guidance and support to help you land your dream Python job.</p> 
-    </div>
-    <div className="col-md-5 mt-5 mx-auto">
-  
-     <img className='w-100 PYTHON4' src={require('../Components/images/PYTHON3.webp')} alt="" />
-    </div>
-  </div>
-</div>
-
-
-{/* python corse banner3 ends here  */}
-
-
-
-
-{/* python course banner4 starts here */}
-
-<div className="container mt-5">
-  <div className="row">
-    <div className="col-md-5">
-      <img className='w-100 PYTHON4' src={require('../Components/images/PYTHON4.webp')} alt="" />
-    </div>
-    <div className="col-md-7 mt-5 mx-auto  d-flex flex-column  justify-content-center"data-aos="fade-down" data-aos-duration="2000">
-    <h2 className=' text-center text-dark'>
-    	Hands-on Learning
-        </h2>
-
-      
-        <p className='python-para my-5 '>
-     
-     
-        Build practical projects and solidify your understanding through real-world applications.</p> 
-
-    </div>
-  </div>
-</div>
-
-</div>
-
-{/* python corse banner4 ends here  */}
-
-  <div className="container overflow-hidden">
-
-
-<div className="b-shape-1 ">
-          <img src={require("../Components/images/shape-1.png")} alt="" />
-        </div>
-        <div className="b-shape-2">
-          <img src={require("../Components/images/shape-2.png")} alt="" />
-        </div>
-        <div className="b-shape-3">
-          <img src={require("../Components/images/shape-3.png")} alt="" />
-        </div>
-        <div className="b-shape-4">
-          <img src={require("../Components/images/shape-4.png")} alt="" />
-        </div>
-        </div>
-
+  <Animationsquare/>
 
 
 
 {/*  */}
 
 
+{/* faq */}
+
+<Contactbanner/>
+{/* faq */}
 
 
 

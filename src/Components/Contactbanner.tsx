@@ -1,39 +1,10 @@
-import React from "react";
-import "../Pages/contact.css";
-import Footer from '../Components/Footer';
-import Tilt from "react-parallax-tilt";
-import Faq from "./Faq";
+import React from 'react'
+import Faq from '../Pages/Faq'
 
-function Contact() {
+function Contactbanner() {
   return (
-    <>
-{/* banner starts here  */}
-<div className="container-fluid bg-light p-5">
-<div className="container mx-auto">
-  <div className="row  ">
-    <div className="col-lg-6 d-flex flex-column justify-content-center ">
-      <h1 className="contact-banner-heading " >CONTACT US</h1>
-      <h5 className="contact-subheading">Let's connect! Your thoughts matter. Reach out to us anytime.</h5>
-      <p className="contact-para">Get in touch with us effortlessly. Whether you have questions, feedback, or just want to chat, we're here to listen and assist you every step of the way.</p>
-    </div>
-    <div className="col-lg-6 text-center ">
-      <Tilt>
-      <img className=" w-75 " src={require('../Components/images/banner-conatct2.png')} alt="" />
-      </Tilt>
-    </div>
-  </div>
-</div>
-
-</div>
-
-
-
-
-
-
-
-    {/* banner ends here  */}
-      <div className="map ">
+  <>
+   <div className="map ">
         <div className="row ">
           <div className="col-lg-6">
             <img
@@ -100,20 +71,13 @@ function Contact() {
 
 
      
-<div>
 
   <Faq/>
-</div>
-
-
-
-
-
- <div className="mt-5">
- <Footer/>
-  </div>  
-    </>
-  );
+  
+  
+  
+  </>
+  )
 }
 
-export default Contact;
+export default Contactbanner

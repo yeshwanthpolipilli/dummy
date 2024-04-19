@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from '../Components/Footer'
 
 function Four() {
   return (
@@ -76,6 +77,7 @@ function Four() {
       At Devrootz, we're passionate about helping you elevate your web testing game and deliver exceptional quality for your web projects. Whether you're looking to expand your skill set, solve specific testing challenges, or stay informed about the latest trends and innovations in QA testing, you'll find valuable resources and actionable insights here. Join us on the journey to ensuring flawless user experiences and driving excellence in web development!
       </p>
     </div>
+    <Footer/>
   </>
   )
 }

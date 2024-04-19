@@ -5,7 +5,7 @@ import { MdAddCall } from "react-icons/md";
 import { IoLogoWhatsapp } from "react-icons/io5";
 import { MdFacebook } from "react-icons/md";
 import { IoLogoInstagram } from "react-icons/io";
-import { FaTwitter } from "react-icons/fa6";
+import { FaLinkedin } from "react-icons/fa";
 import { IoMdArrowDropdown } from "react-icons/io";
 
 const Navbar = () => {
@@ -19,26 +19,26 @@ const Navbar = () => {
     <>
 <div className="container-fluid topbgm w-100 text-white">
 <div className="row text-center">
-  <div className="col-lg-6">
+  <div className="col-lg-8">
  <div className="container">
-  <div className="row d justify-content-center">
-    <div className="col-md-4 "><span className='fs-8  '><MdAddCall /></span> &nbsp;91 9012547820  &nbsp;<span className='border border-right'></span></div>
-    <div className="col-md-4"><span className='fs-8'><MdAddCall /></span> &nbsp;91 9012547820 &nbsp;<span className='border border-right'></span></div>
-    <div className="col-md-4"><span className='fs-8 '><IoLogoWhatsapp /></span> &nbsp;91 9012547820 &nbsp;<span className='border border-right'></span></div>
+  <div className="row justify-content-center">
+    <div className="col-md-3 my-1"><span className='fs-8  '><MdAddCall /></span> &nbsp;91 9012547820  &nbsp;<span className='border border-right'></span></div>
+    <div className="col-md-3 my-1"><span className='fs-8 '><MdAddCall /></span> &nbsp;91 9012547820 &nbsp;<span className='border border-right'></span></div>
+    <div className="col-lg-5 text-center"><p className='my-1'> Sculpting Key Programmers </p></div>
   </div>
  </div>
   </div>
-  <div className="col-lg-3"><p className='my-1'> Sculpting Key Programmers</p></div>
-  <div className="col-lg-2">
-    <span className='fs-5'>   &nbsp;    <MdFacebook /></span>
+
+  <div className="col-lg-4">
+    <span className='fs-5'>   &nbsp; <a className='text-white' target='blank' href="https://www.facebook.com/devrootzhubs">  <MdFacebook /></a>   </span>
     <span className='fs-5'>   &nbsp;  <IoLogoInstagram /></span>
-    <span className='fs-5'>    &nbsp; <FaTwitter /></span>
+    <span className='fs-5'>    &nbsp; <FaLinkedin /></span>
     <span className='fs-5'>    &nbsp;   <IoLogoWhatsapp /></span>
   </div>
 </div>
 </div>
 
-     <nav className=" navbar position-sticky w-100 z-1 ">
+     <nav className="navbar position-sticky w-100 z-1 p-3 ">
      
       <div className="navbar-logo">
         <img className='lg' src={require('../Components/images/lg1.png')} alt="" />

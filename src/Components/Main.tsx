@@ -20,7 +20,7 @@ function Main() {
 
 
     <div className="container ">
-    <h1 className=' fw-semibold online text-center '>
+    <h1 className=' fw-semibold online text-center text-decoration-underline '>
         Our Courses
     </h1>
   
@@ -61,7 +61,7 @@ function Main() {
 </div>
 
 <div className="container p-5">
-<h1 className='  why fw-semibold my-5'>Why Choose us?</h1>
+<h1 className='  why fw-semibold my-5 text-center text-decoration-underline'>Why Choose us?</h1>
 <div className="row"data-aos="fade-down"data-aos-duration="1000">
   <div className="col-md-3 iconsimg ">
     <img className='w-25 ' src={require('../Components/images/skill1.png')} alt="" />

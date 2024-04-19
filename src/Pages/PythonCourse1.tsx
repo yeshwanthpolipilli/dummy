@@ -3,6 +3,10 @@ import '../Components/style.css'
 import 'aos/dist/aos.css'; // Import AOS styles
 import AOS from 'aos';
 import Footer from '../Components/Footer';
+import '../Pages/corporate.css'
+import Animationsquare from '../Components/Animationsquare';
+import Faq from './Faq';
+import Contactbanner from '../Components/Contactbanner';
 
 
 function About() {
@@ -12,6 +16,8 @@ function About() {
   }, []);
   return (
     <>
+
+
     <div className="container-fluid bg-white   text-dark p-5">
    <div className="container ">
     <div className="row">
@@ -42,150 +48,96 @@ Master Python Programming & Launch Your Tech Career
    </div>
 
 
+{/* cards python starts */}
 
+<div className="container-fluid p-5">
 
-{/* python course banner3 starts here */}
+<h1 className='fs-4 my-3 mx-5 text-dark fw-semibold text-center text-decoration-underline'>Why Choose Our Python mastery Course?</h1>
 
-<div className="container-fluid text-dark bg-light p-5">
-
-<div className="container mt-5  ">
-  <div className="row">
-    <div className="col-md-7 mt-md-5 d-flex flex-column  justify-content-center" data-aos="fade-down" data-aos-duration="2000">
-    <h2 className=' text-center text-dark'>
-     In-depth Curriculum
-        </h2>
-
-      
-        <p className='python-para my-5 '>
-     
-     
-        Master the fundamentals and progress to advanced topics like data science, web development, and machine learning. </p>
-    </div>
-    <div className="col-md-5 mt-5 mx-auto">
-  
+<div className="container d-flex flex-wrap justify-content-center">
+    <div className="flex-item ">
+        <div>
+        <div className="card card-run">
+           
      <img className='w-100 PYTHON4' src={require('../Components/images/PYTHON1.webp')} alt="" />
+      <p className="card-title1">     In-depth Curriculum</p>
+      <p className="small-desc">
+     Master the fundamentals and progress to advanced topics like  web development,machine learning. </p>
+    
+      <div className="go-corner">
+        <div className="go-arrow">→</div>
+      </div>
     </div>
-  </div>
-</div>
-
-
-{/* python corse banner3 ends here  */}
-
-
-
-{/* python course banner4 starts here */}
-
-<div className="container mt-5">
-  <div className="row">
-    <div className="col-md-5 ">
-      <img className='w-100 PYTHON4' src={require('../Components/images/PYTHON2.webp')} alt="" />
+        </div>
     </div>
-    <div className="col-md-7 mt-5 mx-auto d-flex flex-column  justify-content-center"data-aos="fade-down" data-aos-duration="2000">
-    <h2 className=' text-center text-dark'>
-    Expert-Led Training
-        </h2>
 
-      
-        <p className='python-para my-5 '>
+    <div className="flex-item ">
+        <div>
+        <div className="card card-run">
+        <img className='w-100 PYTHON4' src={require('../Components/images/PYTHON2.webp')} alt="" />
      
-     
-        Learn from seasoned professionals with proven industry experience.</p>    </div>
-  </div>
+      <p className="card-title1 mt-2">Expert-Led Trainings</p>
+      <p className="small-desc">
+      Are you looking to take your skills to the next level?  Learn from seasoned professionals with proven industry experience.
+      </p>
+      <div className="go-corner">
+        <div className="go-arrow">→</div>
+      </div>
+    </div>
+        </div>
+    </div>
+
+    <div className="flex-item ">
+        <div>
+        <div className="card card-run">
+        <img className='w-75  mx-auto' src={require('../Components/images/PYTHON3.webp')} alt="" />
+      <p className="card-title1 mt-4"> Placement Assistance</p>
+      <p className="small-desc">
+      We provide dedicated guidance and support to help you and land your dream Python job  and Become successful.
+      </p>
+      <div className="go-corner">
+        <div className="go-arrow">→</div>
+      </div>
+    </div>
+        </div>
+    </div>
+
+    <div className="flex-item ">
+        <div>
+        <div className="card card-run">
+        <img className='w-100 PYTHON4' src={require('../Components/images/PYTHON4.webp')} alt="" />
+      <p className="card-title1">Hands-on Learning</p>
+      <p className="small-desc">
+      Build practical projects and solidify your understanding through real-world applications.
+      </p>
+      <div className="go-corner">
+        <div className="go-arrow">→</div>
+      </div>
+    </div>
+        </div>
+    </div>
+</div>
 </div>
 
 
-
-{/* python corse banner4 ends here  */}
-
+{/* cards python ends  */}
 
 
-{/* python course banner3 starts here */}
-
-
-<div className="container mt-5 overflow-hidden">
-  <div className="row">
-    <div className="col-md-7 d-flex flex-column  justify-content-center"data-aos="fade-down" data-aos-duration="2000">
-        <h2 className=' text-center text-dark'>
-    Placement Assistance
-        </h2>
-        <p className='python-para my-5 '>
-        We provide dedicated guidance and support to help you land your dream Python job.</p> 
-    </div>
-    <div className="col-md-5 mt-5 mx-auto">
-  
-     <img className='w-100 PYTHON4' src={require('../Components/images/PYTHON3.webp')} alt="" />
-    </div>
-  </div>
-</div>
-
-
-{/* python corse banner3 ends here  */}
-
-
-
-
-{/* python course banner4 starts here */}
-
-<div className="container mt-5">
-  <div className="row">
-    <div className="col-md-5">
-      <img className='w-100 PYTHON4' src={require('../Components/images/PYTHON4.webp')} alt="" />
-    </div>
-    <div className="col-md-7 mt-5 mx-auto  d-flex flex-column  justify-content-center"data-aos="fade-down" data-aos-duration="2000">
-    <h2 className=' text-center text-dark'>
-    	Hands-on Learning
-        </h2>
-
-      
-        <p className='python-para my-5 '>
-     
-     
-        Build practical projects and solidify your understanding through real-world applications.</p> 
-
-    </div>
-  </div>
-</div>
-
-</div>
-
-{/* python corse banner4 ends here  */}
-
-
-
-
-
-
-
-{/*  */}
-
+{/* Animationsquare */}
  
+<Animationsquare/>
 
-  <div className="container overflow-hidden">
 
+{/* Animationsquare */}
 
-<div className="b-shape-1 ">
-          <img src={require("../Components/images/shape-1.png")} alt="" />
-        </div>
-        <div className="b-shape-2">
-          <img src={require("../Components/images/shape-2.png")} alt="" />
-        </div>
-        <div className="b-shape-3">
-          <img src={require("../Components/images/shape-3.png")} alt="" />
-        </div>
-        <div className="b-shape-4">
-          <img src={require("../Components/images/shape-4.png")} alt="" />
-        </div>
-        </div>
+{/* faq */}
+
+<Contactbanner/>
+{/* faq */}
 
 
 
-
-{/*  */}
-
-
-
-
-{/* footer starts hre  */}
+{/* footer starts here  */}
 
 <Footer/>
 

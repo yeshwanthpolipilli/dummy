@@ -1,9 +1,10 @@
 import React from "react";
+import Footer from '../Components/Footer'
 
 function One() {
   return (
     <>
-      <div className="blog1  p-5 container">
+      <div className="blog1  p-4 container">
         <h4 className="text-center text-danger p-5">
           Unlocking the Power of Digital Marketing: Strategies for Success
         </h4>
@@ -106,6 +107,8 @@ function One() {
           personal and professional growth today!
         </p>
       </div>
+
+      <Footer/>
     </>
   );
 }

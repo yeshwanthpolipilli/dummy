@@ -57,7 +57,7 @@ function Aboutus() {
             <p>
             Devrootz Hub is your one-stop destination for empowering yourself with the latest tech skills and securing your dream job in the ever-evolving tech industry. We bridge the gap between education and employment by providing comprehensive training programs in trending technologies, coupled with dedicated placement assistance.
             </p> 
-          <p className='bg-danger w-25 text-center more-know text-white'>Know More</p>
+          <p className=' w-25 text-center more-know5 text-white'>Know More</p>
           </div>
         </div>
       </div>

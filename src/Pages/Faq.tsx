@@ -1,5 +1,5 @@
 import React from 'react'
-import '../Pages/Frequent.css'
+import '../Pages/faq.css'
 
 function Faq() {
   return (
@@ -12,7 +12,7 @@ function Faq() {
         <div className="accordion" id="accordionExample " >
       <div className="accordion-item border-0 p-3">
         <h2 className="accordion-header" id="headingOne">
-          <button className="accordion-button p-4  main-btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          <button className="main-btn p-4  " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
            1. What types of training programs do you offer?
           </button>
         </h2>
@@ -24,7 +24,7 @@ function Faq() {
       </div>
       <div className="accordion-item border-0 p-3">
         <h2 className="accordion-header border-0" id="headingTwo">
-          <button className="accordion-button p-4 collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          <button className="main-btn p-4 collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
           2. Do I need any specific software or hardware to take the courses?
           </button>
         </h2>
@@ -36,7 +36,7 @@ function Faq() {
       </div>
       <div className="accordion-item border-0 p-3">
         <h2 className="accordion-header border-0" id="headingThree">
-          <button className="accordion-button p-4 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          <button className="main-btn p-4 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
             3. Is there a community or forum where I can interact with other learners?
           </button>
         </h2>
